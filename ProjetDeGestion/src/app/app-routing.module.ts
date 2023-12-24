@@ -4,7 +4,8 @@ import { FormationsComponent } from './formations/formations.component';
 import { HomeComponent } from './home/home.component';
 const routes: Routes = [
   {path:'formations',component:FormationsComponent}
-  ,{path:'/',component:HomeComponent}
+  ,{path:'home',component:HomeComponent}
+  ,{path:'',redirectTo:'/home',pathMatch:'full'}
 ];
 
 @NgModule({

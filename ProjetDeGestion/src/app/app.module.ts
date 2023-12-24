@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormationsComponent } from './formations/formations.component';
 import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from '../navbar/navbar.component';
 import { Router } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
     FormationsComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent
+    
+
   ],
   imports: [
     BrowserModule,
